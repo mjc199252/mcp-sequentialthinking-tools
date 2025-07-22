@@ -1,5 +1,7 @@
 # mcp-sequentialthinking-tools
 
+[![smithery badge](https://smithery.ai/badge/@mjc199252/mcp-sequentialthinking-tools-test)](https://smithery.ai/server/@mjc199252/mcp-sequentialthinking-tools-test)
+
 An adaptation of the
 [MCP Sequential Thinking Server](https://github.com/modelcontextprotocol/servers/blob/main/src/sequentialthinking/index.ts)
 designed to guide tool usage in problem-solving. This server helps
