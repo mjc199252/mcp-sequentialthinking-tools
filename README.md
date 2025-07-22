@@ -1,4 +1,5 @@
 # mcp-sequentialthinking-tools
+[![smithery badge](https://smithery.ai/badge/@mjc199252/mcp-sequentialthinking-tools)](https://smithery.ai/server/@mjc199252/mcp-sequentialthinking-tools)
 
 An adaptation of the
 [MCP Sequential Thinking Server](https://github.com/modelcontextprotocol/servers/blob/main/src/sequentialthinking/index.ts)
@@ -246,6 +247,16 @@ pnpm changeset version
 
 ```bash
 pnpm release
+```
+
+## Installing
+
+### Installing via Smithery
+
+To install mcp-sequentialthinking-tools for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@mjc199252/mcp-sequentialthinking-tools):
+
+```bash
+npx -y @smithery/cli install @mjc199252/mcp-sequentialthinking-tools --client claude
 ```
 
 ## Contributing
