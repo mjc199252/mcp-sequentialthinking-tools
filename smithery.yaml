@@ -1,0 +1,19 @@
+# Smithery configuration file: https://smithery.ai/docs/build/project-config
+
+startCommand:
+  type: stdio
+  commandFunction:
+    # A JS function that produces the CLI command based on the given config to start the MCP on stdio.
+    |-
+    (config) => ({ command: 'node', args: ['dist/index.js'], env: { MAX_HISTORY_SIZE: String(config.maxHistorySize || 1000) } })
+  configSchema:
+    # JSON Schema defining the configuration options for the MCP.
+    type: object
+    required: []
+    properties:
+      maxHistorySize:
+        type: number
+        default: 1000
+        description: Maximum number of thoughts to retain in history.
+  exampleConfig:
+    maxHistorySize: 1000
